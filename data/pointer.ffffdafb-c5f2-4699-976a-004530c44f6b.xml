@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='ASCII'?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version111/mets.xsd">
+  <mets:metsHdr CREATEDATE="2019-05-17T23:14:15"/>
+  <mets:amdSec ID="amdSec_435677">
+    <mets:techMD ID="techMD_214316" CREATED="2019-05-17T23:14:15" STATUS="current">
+      <mets:mdWrap MDTYPE="PREMIS:OBJECT">
+        <mets:xmlData>
+          <premis:object xmlns:premis="info:lc/xmlns/premis-v2" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-2.xsd" xsi:type="premis:file" version="2.2">
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>ffffdafb-c5f2-4699-976a-004530c44f6b</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>1</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>sha256</premis:messageDigestAlgorithm>
+                <premis:messageDigest>0c54415f37465908fd9c97ccdab47d5bb787c05368113195c9b234fcea127657</premis:messageDigest>
+              </premis:fixity>
+              <premis:size>98395</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>7Zip format</premis:formatName>
+                </premis:formatDesignation>
+                <premis:formatRegistry>
+                  <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
+                  <premis:formatRegistryKey>fmt/484</premis:formatRegistryKey>
+                </premis:formatRegistry>
+              </premis:format>
+              <premis:creatingApplication>
+                <premis:creatingApplicationName>7-Zip</premis:creatingApplicationName>
+                <premis:creatingApplicationVersion>p7zip Version 9.20 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,8 CPUs)</premis:creatingApplicationVersion>
+                <premis:dateCreatedByApplication>2019-05-17T23:14:14</premis:dateCreatedByApplication>
+              </premis:creatingApplication>
+            </premis:objectCharacteristics>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+    <mets:digiprovMD ID="digiprovMD_239923" CREATED="2019-05-17T23:14:15">
+      <mets:mdWrap MDTYPE="PREMIS:EVENT">
+        <mets:xmlData>
+          <premis:event xmlns:premis="info:lc/xmlns/premis-v2" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-2.xsd" version="2.2">
+            <premis:eventIdentifier>
+              <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+              <premis:eventIdentifierValue>647cfd06-f5b2-4348-8b6a-b75113e27727</premis:eventIdentifierValue>
+            </premis:eventIdentifier>
+            <premis:eventType>compression</premis:eventType>
+            <premis:eventDateTime>2019-05-17T23:13:31+00:00</premis:eventDateTime>
+            <premis:eventDetail>program=7z; algorithm=copy; version=p7zip Version 9.20 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,8 CPUs)
+</premis:eventDetail>
+            <premis:eventOutcomeInformation>
+              <premis:eventOutcome></premis:eventOutcome>
+              <premis:eventOutcomeDetail>
+                <premis:eventOutcomeDetailNote>Standard Output="
+7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+p7zip Version 9.20 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,8 CPUs)
+Scanning
+
+Creating archive /var/archivematica/sharedDirectory/watchedDirectories/workFlowDecisions/compressionAIPDecisions/N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b.7z
+
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/objects/preservation/N30051000643061_0001.jpg
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/METS.ffffdafb-c5f2-4699-976a-004530c44f6b.xml
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/objects/submissionDocumentation/transfer-N30051000643061-b6ac90f8-389f-4de5-b640-07878732bd19/METS.xml
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/objects/metadata/transfers/N30051000643061-b6ac90f8-389f-4de5-b640-07878732bd19/mets_structmap.xml
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/README.html
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/bag-info.txt
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/bagit.txt
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/objects/metadata/transfers/N30051000643061-b6ac90f8-389f-4de5-b640-07878732bd19/directory_tree.txt
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/manifest-sha256.txt
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/tagmanifest-md5.txt
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/objects/metadata/transfers/N30051000643061-b6ac90f8-389f-4de5-b640-07878732bd19/identifiers.json
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/logs/transfers/N30051000643061-b6ac90f8-389f-4de5-b640-07878732bd19/logs/fileFormatIdentification.log
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/logs/fileFormatIdentification.log
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/logs/transfers/N30051000643061-b6ac90f8-389f-4de5-b640-07878732bd19/logs/filenameCleanup.log
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/logs/filenameCleanup.log
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/logs/handles.log
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/objects/metadata/transfers/N30051000643061-b6ac90f8-389f-4de5-b640-07878732bd19/checksum.md5
+Compressing  N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b/data/logs/transfers/N30051000643061-b6ac90f8-389f-4de5-b640-07878732bd19/logs/checksum.md5-Check-20190517T230959Z
+
+Everything is Ok
+"; Standard Error=""</premis:eventOutcomeDetailNote>
+              </premis:eventOutcomeDetail>
+            </premis:eventOutcomeInformation>
+            <premis:linkingAgentIdentifier>
+              <premis:linkingAgentIdentifierType>preservation system</premis:linkingAgentIdentifierType>
+              <premis:linkingAgentIdentifierValue>Archivematica-1.7</premis:linkingAgentIdentifierValue>
+            </premis:linkingAgentIdentifier>
+            <premis:linkingAgentIdentifier>
+              <premis:linkingAgentIdentifierType>repository code</premis:linkingAgentIdentifierType>
+              <premis:linkingAgentIdentifierValue>NL-AmISG</premis:linkingAgentIdentifierValue>
+            </premis:linkingAgentIdentifier>
+          </premis:event>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+    <mets:digiprovMD ID="digiprovMD_961550" CREATED="2019-05-17T23:14:15">
+      <mets:mdWrap MDTYPE="PREMIS:EVENT">
+        <mets:xmlData>
+          <premis:event xmlns:premis="info:lc/xmlns/premis-v2" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-2.xsd" version="2.2">
+            <premis:eventIdentifier>
+              <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+              <premis:eventIdentifierValue>38a309b3-f9f2-4c2e-93e5-e3af54d65bd1</premis:eventIdentifierValue>
+            </premis:eventIdentifier>
+            <premis:eventType>fixity check</premis:eventType>
+            <premis:eventDateTime>2019-05-17T23:14:09+00:00</premis:eventDateTime>
+            <premis:eventDetail>program="python, bag"; module="hashlib.sha256()"</premis:eventDetail>
+            <premis:eventOutcomeInformation>
+              <premis:eventOutcome>Pass</premis:eventOutcome>
+              <premis:eventOutcomeDetail>
+                <premis:eventOutcomeDetailNote>All checksums (count=6) generated at start of transfer match those generated by BagIt (bag).</premis:eventOutcomeDetailNote>
+              </premis:eventOutcomeDetail>
+            </premis:eventOutcomeInformation>
+            <premis:linkingAgentIdentifier>
+              <premis:linkingAgentIdentifierType>preservation system</premis:linkingAgentIdentifierType>
+              <premis:linkingAgentIdentifierValue>Archivematica-1.7</premis:linkingAgentIdentifierValue>
+            </premis:linkingAgentIdentifier>
+            <premis:linkingAgentIdentifier>
+              <premis:linkingAgentIdentifierType>repository code</premis:linkingAgentIdentifierType>
+              <premis:linkingAgentIdentifierValue>NL-AmISG</premis:linkingAgentIdentifierValue>
+            </premis:linkingAgentIdentifier>
+          </premis:event>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+    <mets:digiprovMD ID="digiprovMD_435245" CREATED="2019-05-17T23:14:15">
+      <mets:mdWrap MDTYPE="PREMIS:AGENT">
+        <mets:xmlData>
+          <premis:agent xmlns:premis="info:lc/xmlns/premis-v2" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-2.xsd" version="2.2">
+            <premis:agentIdentifier>
+              <premis:agentIdentifierType>preservation system</premis:agentIdentifierType>
+              <premis:agentIdentifierValue>Archivematica-1.7</premis:agentIdentifierValue>
+            </premis:agentIdentifier>
+            <premis:agentName>Archivematica</premis:agentName>
+            <premis:agentType>software</premis:agentType>
+          </premis:agent>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+    <mets:digiprovMD ID="digiprovMD_838192" CREATED="2019-05-17T23:14:15">
+      <mets:mdWrap MDTYPE="PREMIS:AGENT">
+        <mets:xmlData>
+          <premis:agent xmlns:premis="info:lc/xmlns/premis-v2" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-2.xsd" version="2.2">
+            <premis:agentIdentifier>
+              <premis:agentIdentifierType>repository code</premis:agentIdentifierType>
+              <premis:agentIdentifierValue>NL-AmISG</premis:agentIdentifierValue>
+            </premis:agentIdentifier>
+            <premis:agentName>IISH</premis:agentName>
+            <premis:agentType>organization</premis:agentType>
+          </premis:agent>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="Archival Information Package">
+      <mets:file ID="N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b" GROUPID="Group-ffffdafb-c5f2-4699-976a-004530c44f6b" ADMID="amdSec_435677">
+        <mets:FLocat xlink:href="/data/aip/10622/000/ffff/dafb/c5f2/4699/976a/0045/30c4/4f6b/N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b.7z" LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM"/>
+        <mets:transformFile TRANSFORMTYPE="decompression" TRANSFORMORDER="1" TRANSFORMALGORITHM="copy"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap ID="structMap_1" LABEL="Archivematica default" TYPE="physical">
+    <mets:div TYPE="Archival Information Package" LABEL="N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b.7z">
+      <mets:fptr FILEID="N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b"/>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap ID="structMap_2" LABEL="Normative Directory Structure" TYPE="logical">
+    <mets:div TYPE="Archival Information Package" LABEL="N30051000643061-ffffdafb-c5f2-4699-976a-004530c44f6b.7z"/>
+  </mets:structMap>
+</mets:mets>

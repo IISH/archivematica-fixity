@@ -1,12 +1,29 @@
-from xml.etree.ElementTree import parse
+from xml.etree.ElementTree import parse, ParseError
 import sys
 import hashlib
 
-aip = sys.argv[1]
-pointerfile = sys.argv[2]
 
-root = parse(pointerfile).getroot()
-hashfrompointerfile = root.findall(".//{info:lc/xmlns/premis-v2}messageDigest")[0].text
+def gethashfrompointerfile(pointerfile):
+    root = parse(pointerfile).getroot()
+    try:
+        return root.findall(".//{info:lc/xmlns/premis-v2}messageDigest")[0].text
+    except:
+        pass
+
+    try:
+        return root.findall(".//{info:lc/xmlns/premis-v3}messageDigest")[0].text
+    except:
+        pass
+
+    raise ParseError
+
+
+aip = sys.argv[1]
+try:
+    hashfrompointerfile = gethashfrompointerfile(sys.argv[2])
+except ParseError:
+    print("Hash not found in pointerfile " + sys.argv[2])
+    exit(1)
 
 BUF_SIZE = 65536
 sha256 = hashlib.sha256()

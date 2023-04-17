@@ -18,7 +18,7 @@ with open(aip, 'rb') as f:
             break
         sha256.update(data)
 
-print("hash fron aip:         " + hashfrompointerfile)
+print("hash from aip:         " + hashfrompointerfile)
 print("hash from pointerfile: " + sha256.hexdigest())
 
 if hashfrompointerfile == sha256.hexdigest():
